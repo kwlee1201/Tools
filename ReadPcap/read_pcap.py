@@ -25,4 +25,4 @@ def df_pcap(pcap):
 filename = "sample.pcap"
 file = open(filename, "rb")
 pcap = dpkt.pcap.Reader(file)
-df_pcap = df_pcap(pcap)
+df_pcap_ = df_pcap(pcap)
