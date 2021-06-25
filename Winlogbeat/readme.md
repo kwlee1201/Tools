@@ -20,7 +20,7 @@ This diagram is an example for the content of winlogbeat.yml.
 
 ## Windows event viewer
 
-Above mentioned logs were stored in this path `C:\Windows\System322\winevt\Logs`. We can open these files with event viewer and observe their content. For example, we click 'Microsoft-Windows-Sysmon%4Operation.evtx' and show the information in event viewer which is like below. 
+Above mentioned logs were stored in this path `C:\Windows\System32\winevt\Logs`. We can open these files with event viewer and observe their content. For example, we click 'Microsoft-Windows-Sysmon%4Operation.evtx' and show the information in event viewer which is like below. 
 
 <img src="./images/winlogbeat_page_3.png" width="800px" /> 
 
